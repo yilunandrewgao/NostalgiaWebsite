@@ -1,0 +1,242 @@
+/*Common*/
+body{
+	background-color:#000;
+	background-image:url("./images/bg-body.jpg");
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+ 
+/*Containers*/
+.page{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.header{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:space-around;
+	background-color:transparent;
+	margin-bottom: 0px
+}
+
+.wrapper_column{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	margin-bottom: 0px;
+}
+
+.searchbar{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items:center;
+	align-self: flex-start;
+}
+
+.social_media{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-self:flex-end;
+	font-family:'KomikaTitleRegular', Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+.main_navigation{
+	flex-basis: 20%;
+	display: flex;
+	flex-flow:row nowrap;
+	align-items: flex-end;
+	justify-content: flex-end;
+	color: blue;
+
+	margin-bottom: 0px;
+
+}
+
+.main_navigation button {
+	display:block;
+	float:left;
+
+	color:#FFF; 
+	font-family:'KomikaTextItalic', Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+
+	text-shadow:2px 2px 2px rgba(0,0,0,.5);
+	background-color: transparent;
+	border: none;
+}
+
+.main_navigation button:hover{
+	background-image: url("./images/bg-main-navigation.png");
+	background-position: left;
+}
+
+
+.featured_content{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:center;
+	background-color:transparent;
+}
+
+.top_banner{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content:center;
+}
+
+.main_content{
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content:space-evenly;
+	align-items: center;
+	background-color: white;
+	align-self: center;
+	margin:10px;
+	padding: 10px;
+}
+
+.store_info_box{
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items:center;
+	background-color: transparent;
+	height: auto;
+	margin: 10px;
+}
+
+.store_pic_box{
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items:center;
+	background-color: transparent;
+	max-width:100%;
+	height: auto;
+	margin: 10px;
+}
+
+.contact_us {
+	display:flex;
+	background-color: white;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-self:center;
+	padding:10px;
+	margin:10px;
+	width: 70%;
+	background-color: orange;
+}
+
+.submit_button{
+	margin:10px;
+	padding: 10px;
+	border: none;
+	background: #333;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	letter-spacing: .09em;
+	border-radius: 2px;
+}
+
+.webform_field {
+	width:80%;
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items:center;
+}
+
+.webform_field input {
+	height:20px;
+	font-size:14pt;
+	flex: 2;
+}
+
+.webform_field label {
+	color: white;
+	padding: 8px;
+	font-weight: 300;
+	letter-spacing: .09em;
+	text-transform: uppercase;
+	flex: 1;
+}
+
+.webform_field_big {
+	width:80%;
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items:center;
+}
+
+.webform_field_big label{
+	color:white;
+	padding: 8px;
+	font-weight: 300;
+	letter-spacing: .09em;
+	text-transform: uppercase;
+	flex: 1;
+}
+
+.webform_field_big textarea {
+	height:100px;
+	font-size:14pt;
+	flex:2;
+}
+
+.about_us {
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	width: 70%;
+	align-self:center;
+	background-color:white;
+	padding:10px;
+	margin:10px;
+}
+
+.footer{
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	width: 100%;
+	align-self:center;
+	background-image: url("./images/bg-footer.jpg");
+	background-size: cover;
+	color:white;
+	padding: 20px;
+
+	font-family:'KomikaTitleRegular', Arial, Helvetica, sans-serif;
+	font-size:15px;
+
+}
+
+.footer_left{
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: space-evenly;
+	align-items:flex-start;
+}
+
+.footer_right {
+	display: flex;
+	flex-flow:row nowrap;
+	align-items:center;
+}
+
+.footer_field{
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 15px;
+	align-items: center;
+	justify-content: flex-start;
+}
