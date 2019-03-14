@@ -165,7 +165,7 @@ class Home extends Component {
 						<a href="http://www.emeraldcitycomicseugene.com"><img src={require("./images/nostalgia_specific/visit.png")}/></a>
 					</div>
 					<div id="store_pic_box" className = "store_pic_box">
-						<img src={require("./images/nostalgia_specific/mainstore.jpg")}/>
+						<img src={require("./images/nostalgia_specific/mainstore3.jpg")} height={600} width={800}/>
 					</div>
 				</div>
 			);
@@ -178,7 +178,7 @@ class AboutUs extends Component {
 		return (
 			<div id="about_us" className="about_us">
 				<img src={require("./images/nostalgia_specific/story.png")}/>
-				<img src={require("./images/nostalgia_specific/storepic1.jpg")}/>
+				<img src={require("./images/nostalgia_specific/storepic2.jpg")} height={600} width={700}/>
 			</div>
 		)
 	}
