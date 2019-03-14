@@ -24,8 +24,6 @@ class App extends Component {
 
 					  	<div id="wrapper_search" className="wrapper_column">
 
-							
-
 							<ul id="main_navigation" className = "main_navigation">
 								<button onClick={() => this.changeTab("home")}>&nbsp; Home</button>
 								<button onClick={() => this.changeTab("about_us")}>&nbsp; About us</button>
@@ -37,7 +35,7 @@ class App extends Component {
 
 					<div id="featured_content" className = "featured_content">
 					  	<div id="top_banner" className = "top_banner">
-					  		<img src={require("./images/bg-banner.jpg")}/>
+					  		Featured News
 					  	</div>
 					</div>
 
