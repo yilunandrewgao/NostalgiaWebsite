@@ -35,7 +35,12 @@ class App extends Component {
 
 					<div id="featured_content" className = "featured_content">
 					  	<div id="top_banner" className = "top_banner">
-					  		Featured News
+					  		<div id="banner_img" className="banner_img">
+					  			<img src={require("./images/banner/moving.jpeg")} />
+					  		</div>
+					  		<div id="banner_news" className="banner_news">
+					  			<p>We have moved to a new location</p>
+					  		</div>
 					  	</div>
 					</div>
 
@@ -56,7 +61,7 @@ class App extends Component {
 
 							<div className="footer_field">
 								<img src={require("./images/icons/email_48.png")} />
-								<div><a href="mailto:support@company.com">support@company.com</a></div>
+								<div><a href="mailto:jusashdar@gmail.com">jusashdar@gmail.com</a></div>
 							</div>
 
 						</div>
@@ -64,11 +69,23 @@ class App extends Component {
 						<div className="footer_right">
 
 							<div id="social_media" className="social_media">
-						    	Follow us &nbsp;&nbsp;
+						    	Follow us
+						    	<div id="social_buttons" className = "social_buttons">
 						    	
-						    	<a href="https://www.facebook.com/NostalgiaCollectibles/"><img src={require("./images/icons/facebook_16.png")} width="16" height="16" /></a>
-						    	&nbsp;
-						    	<a href="https://www.ebay.com/sch/emeraldcitycomicseugene/m.html"><img src={require("./images/icons/ebay_16.png")} width="16" height="16" /></a>
+							    	<div id="left_social_buttons" className="social_buttons_col">
+							    		<a href="https://www.facebook.com/NostalgiaCollectibles/"><img src={require("./images/icons/facebook_48.png")} width="48" height="48" /></a>
+							    		&nbsp;
+							    		<a href="https://www.ebay.com/sch/emeraldcitycomicseugene/m.html"><img src={require("./images/icons/ebay_48.png")} width="48" height="48" /></a>
+							    	</div>
+
+							    	<div id="right_social_buttons" className="social_buttons_col">
+							    		<a><img src={require("./images/icons/twitter_48.png")} width="48" height="48" /></a>
+							    		&nbsp;
+							    		<a><img src={require("./images/icons/instagram_48.png")} width="48" height="48" /></a>
+							    	</div>
+
+						    	
+						    	</div>
 							</div>	
 
 						</div>
