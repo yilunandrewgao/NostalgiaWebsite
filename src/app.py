@@ -1,10 +1,7 @@
 from flask import Flask, render_template, request
 import json
-import getpass
 
-from webfunctions import send_email_fxn
-
-password = getpass.getpass()
+import webfunctions
 
 app = Flask(__name__, static_folder='../build/static', template_folder='../build')
 
@@ -19,7 +16,7 @@ def send_email():
 
 	data = json.loads(data)
 
-	send_email_fxn(data,password)
+	webfunctions.send_email_fxn(data)
 
 	return render_template('index.html', tab = "contact_us")
 
