@@ -3,6 +3,10 @@ import './nostalgia.css';
 
 class App extends Component {
 
+	componentDidMount(){
+		document.title = "Nostalgia Collectibles"
+	}
+
 	constructor(props) {
 		super(props)
 		this.state = {tab: props.tab}
