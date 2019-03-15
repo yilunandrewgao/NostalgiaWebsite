@@ -4,16 +4,17 @@
 2. Create a [Github](https://github.com/) account.
 3. On the root directory on PythonAnywhere, clone this repository.
 4. On PythonAnywhere, create a webapp, choosing Flask as the framework, Python 3.7 as the version, and the default path.
-5. On the root directory on PythonAnywhere, clone this repository by typing 'git clone https://github.com/yilunandrewgao/NostalgiaWebsite.git'.
-6. On the created webapp page, change the source code directory to '.../NostalgiaWebsite/src' and the working directory to '.../NostalgiaWebsite'. 
-'...' is whatever home directory is on PythonAnywhere.
-7. Edit the WSGI configuration file and change project home variable to '.../NostalgiaWebsite/src' and change last line to 'from app import app as application'.
-8. To enable email on the site's webform, you need to add a password to a '.env' file. Open a bash console and go to '.../NostalgiaWebsite'.
-Type in 'echo "export PASSWORD='your_password'" >> .env'.
-9. To download all dependencies, go to '.../NostalgiaWebsite' on the bash console and type in 'pip3.7 install -r requirements.txt'.
-10. To install React, type in 'npm install react' on the console.
-11. Finally, go to the web app tab and reload the webpage.
-12. To update the site, type in 'git pull' in the root directory.
+5. On the root directory on PythonAnywhere, clone this repository by typing `git clone https://github.com/yilunandrewgao/NostalgiaWebsite.git`.
+6. On the created webapp page, change the source code directory to `.../NostalgiaWebsite/src` and the working directory to `.../NostalgiaWebsite`. 
+`...` is whatever home directory is on PythonAnywhere.
+7. Edit the WSGI configuration file and change project home variable to `.../NostalgiaWebsite/src` and change last line to `from app import app as application`.
+8. To enable email on the site`s webform, you need to add a password to a `.env` file. Open a bash console and go to `.../NostalgiaWebsite`.
+Type in `echo "export PASSWORD='your_password'" >> .env`.
+9. To download all dependencies, go to `.../NostalgiaWebsite` on the bash console and type in `pip3.7 install -r requirements.txt`.
+10. To install React, type in `npm install react` on the console.
+11. After installing React, type in `npm run build`.
+12. Finally, go to the web app tab and reload the webpage.
+13. To update the site, type in `git pull` in the root directory and type in `npm run build`
 
 
 ## React
