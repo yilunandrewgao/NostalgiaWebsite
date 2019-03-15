@@ -83,9 +83,9 @@ class App extends Component {
 							    	</div>
 
 							    	<div id="right_social_buttons" className="social_buttons_col">
-							    		<a><img src={require("./images/icons/twitter_48.png")} width="48" height="48" /></a>
+							    		<a href="https://twitter.com/EugeneComics"><img src={require("./images/icons/twitter_48.png")} width="48" height="48" /></a>
 							    		&nbsp;
-							    		<a><img src={require("./images/icons/instagram_48.png")} width="48" height="48" /></a>
+							    		<a href="https://www.instagram.com/eugenecomics/"><img src={require("./images/icons/instagram_48.png")} width="48" height="48" /></a>
 							    	</div>
 
 						    	
