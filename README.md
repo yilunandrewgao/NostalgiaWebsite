@@ -11,7 +11,7 @@
 8. To enable email on the site's webform, you need to add a password to a `.env` file. Open a bash console and go to `.../NostalgiaWebsite`.
 Type in `echo "export PASSWORD='your_password'" >> .env`.
 9. To download all dependencies, go to `.../NostalgiaWebsite` on the bash console and type in `pip3.7 install -r requirements.txt`.
-10. To install React, type in `npm install react` on the console.
+10. To install React, type in `npm install` on the console.
 11. After installing React, type in `npm run build`.
 12. Finally, go to the web app tab and reload the webpage.
 13. To update the site, type in `git pull` in the root directory and type in `npm run build`
